@@ -27,7 +27,7 @@ Example:
 
 Response codes can be
  * `200 OK` - If all the URLs requested were successfully fetched and returned
- * `203 Partial Content` - If some of the URLs were successfully fetched and returned
+ * `206 Partial Content` - If some of the URLs were successfully fetched and returned
  * `204 No Content` - If all the URLs requested failed or timed out
 
 Notes

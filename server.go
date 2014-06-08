@@ -58,7 +58,7 @@ func MultigetHandler(res http.ResponseWriter, req *http.Request) {
         }
       case <-time.After(5 * time.Second):
         if len(responses) > 0 {
-          WriteJSONResponse(responses, 203, res)
+          WriteJSONResponse(responses, 206, res)
         } else {
           WriteJSONResponse(responses, 204, res)
         }
